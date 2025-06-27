@@ -1,9 +1,9 @@
 # databricks-ai-refinery
 
-By combining the power of the Databricks Mosaic AI and Accenture AI Refinery, 
-you unlock a wide range of agentic capabilities that supercharge your business applications with the power of Generative AI.
+By combining the power of the [Databricks Mosaic AI](https://www.databricks.com/product/artificial-intelligence#related-products) and [Accenture AI Refinery](https://newsroom.accenture.com/news/2025/accenture-launches-distiller-agentic-ai-framework-to-accelerate-scalable-industry-ai-solutions), 
+you unlock a wide range of agentic capabilities that supercharge your business applications.
 
-##### Key Capabilities:
+##### Key Benefits:
 
 - Leverage **data** stored in the Databricks Lakehouse and Lakebase within your AI Refinery agentic applications
 - Leverage AI Refinery **pre-built components** in Mosaic AI agents
