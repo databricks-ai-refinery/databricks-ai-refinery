@@ -89,7 +89,7 @@ Make a note of the `GENIE_SPACE_ID` from the url. You will need to set this up a
 
 ###### Give your service account permission to access the underlying SQL warehouse
 
-<img src="media/permissions-genie-room.png" width="800px">
+<img src="media/permissions-sql-warehouse.png" width="800px">
 
 ###### Give your service account permission to access the underlying schema
 
