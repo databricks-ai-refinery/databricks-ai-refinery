@@ -17,6 +17,7 @@ you unlock a wide range of agentic capabilities that supercharge your business a
 - Implement real-time ingestion using Zerobus from **physical devices** such as cameras and sensors
 - Build Brickbuilder **industry solutions** using AI Refinery components
 
+---
 
 ### Authentication
 
@@ -48,6 +49,13 @@ from databricks_helper import get_workspace_client
 w = get_workspace_client()
 ```
 
+
+###### Step 5: Enable preview: Managed MCP Servers (if still in beta)
+
+<img src="media/enable-preview-managed-mcp-servers.png" width="800px">
+
+
+---
 
 ### Setup Genie Space
 
@@ -94,3 +102,5 @@ Make a note of the `GENIE_SPACE_ID` from the url. You will need to set this up a
 ###### Give your service account permission to access the underlying schema
 
 <img src="media/permissions-schema.png" width="800px">
+
+---

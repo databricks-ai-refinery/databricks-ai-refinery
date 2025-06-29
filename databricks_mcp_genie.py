@@ -39,13 +39,10 @@ async def call_genie(query):
         result_text = result.content[0].text
         return result_text
 
-# Command line interface
-# pip install fire
-import fire
 
 def genie(query="What tables are there and how are they connected? Give me a short summary."):
     result_text = asyncio.run(call_genie(query))
     print(result_text)
 
 if __name__ == "__main__":
-    fire.Fire(genie)
+    genie()

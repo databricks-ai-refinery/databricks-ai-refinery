@@ -1,2 +1,4 @@
 airefinery-sdk
 databricks-sdk
+databricks-mcp
+mcp==1.9.4
