@@ -6,6 +6,9 @@ from databricks.sdk import WorkspaceClient
 from dotenv import load_dotenv
 load_dotenv()
 
+# NOTE: You need to pin the mcp version to mcp==1.9.4 in requirements.txt 
+# for this script to work
+
 # TODO: Update to the Databricks CLI profile name you specified when
 # configuring authentication to the workspace.
 databricks_config_profile = os.getenv("DATABRICKS_CONFIG_PROFILE")

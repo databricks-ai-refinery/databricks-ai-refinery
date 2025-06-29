@@ -2,9 +2,6 @@ from databricks.sdk import WorkspaceClient
 import os
 from dotenv import load_dotenv
 
-# NOTE: You need to pin the mcp version to mcp==1.9.4 in requirements.txt 
-# for this script to work
-
 load_dotenv()
 
 def get_workspace_client():

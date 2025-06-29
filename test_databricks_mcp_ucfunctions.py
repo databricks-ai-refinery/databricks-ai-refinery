@@ -5,9 +5,12 @@ from mcp.client.session import ClientSession
 from databricks_mcp import DatabricksOAuthClientProvider
 from databricks.sdk import WorkspaceClient
 
+# NOTE: You need to pin the mcp version to mcp==1.9.4 in requirements.txt 
+# for this script to work
+
 # TODO: Update to the Databricks CLI profile name you specified when
 # configuring authentication to the workspace.
-databricks_cli_profile = "e2-demo-field-eng"
+databricks_cli_profile = "enb-accenture"
 assert (
     databricks_cli_profile != "YOUR_DATABRICKS_CLI_PROFILE"
 ), "Set databricks_cli_profile to the Databricks CLI profile name you specified when configuring authentication to the workspace"
