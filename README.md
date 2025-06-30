@@ -107,8 +107,6 @@ Make a note of the `GENIE_SPACE_ID` from the url. You will need to set this up a
 
 ### Test Genie MCP server from the command line
 
-Play the video below:
-
-<video src="media/databricks-mcp-genie.mp4" controls autoplay muted loop width="720px"></video>
+https://github.com/user-attachments/assets/f522c39a-1d88-402d-b42c-1ee55b6f04b7
 
 ---
