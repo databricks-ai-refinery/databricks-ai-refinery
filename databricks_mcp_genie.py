@@ -43,9 +43,19 @@ async def call_genie(query):
         return result_text
 
 
-def genie(query="What tables are there and how are they connected? Give me a short summary."):
+def genie(query: str):
     result_text = asyncio.run(call_genie(query))
     print(result_text)
 
 if __name__ == "__main__":
-    genie()
+    import argparse
+    parser = argparse.ArgumentParser(description="Query the Databricks Genie MCP server.")
+    parser.add_argument(
+        "query",
+        nargs="*",
+        default=["What tables are there and how are they connected? Give me a short summary."],
+        help="The query to send to Genie. If omitted, a default summary question is used."
+    )
+    args = parser.parse_args()
+    query = " ".join(args.query)
+    genie(query)

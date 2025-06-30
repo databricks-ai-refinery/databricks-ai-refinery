@@ -104,3 +104,11 @@ Make a note of the `GENIE_SPACE_ID` from the url. You will need to set this up a
 <img src="media/permissions-schema.png" width="800px">
 
 ---
+
+### Test Genie MCP server from the command line
+
+Play the video below:
+
+<video src="media/databricks-mcp-genie.mp4" controls autoplay muted loop width="720px"></video>
+
+---
