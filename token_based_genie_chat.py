@@ -45,11 +45,11 @@ if __name__ == "__main__":
     SPACE_ID = os.getenv("GENIE_SPACE_ID")
 
     queries = [
-        "List and describe the tables in this data set",
+        # "List and describe the tables in this data set",
         # "What information does the first column of the first table include?",
         "How many rows does the first table have?",
         # "Which agents handled the most top priority tickets?",
-        "Show me the first ten rows of the first table",
+        # "Show me the first ten rows of the first table",
         # "How many top priority tickets did Kristos Westoll handle?",
         # "What is the total number of top priority tickets handled?"
         # "What are the levels of priority shown for the tickets?"
@@ -61,8 +61,8 @@ if __name__ == "__main__":
     for i, query in enumerate(queries):
         if i == 0:
             print("\n\nUser query: ", query)
-            genie_response, text_out = start_genie_conversation(client, SPACE_ID, query)
-            if len(text_out) > 0:
+            genie_response, sql_out = start_genie_conversation(client, SPACE_ID, query)
+            if len(sql_out) > 0:
                 print("\n--- Agent Response:")
                 # print(*sql_out, sep="\n")
                 for row in sql_out:
